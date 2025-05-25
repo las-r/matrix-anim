@@ -3,6 +3,7 @@ import mtxanim
 from machine import Pin, SPI
 
 # example for matrix-anim
+# this should make a 2x1 line bounce around at the top of the matrix
 
 # made by las-r on github
 
