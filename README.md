@@ -1,5 +1,5 @@
 # Matrix Anim
-A lightweight MicroPython library for animating LED matrices.
+A lightweight MicroPython library for animating LED matrices frame-by-frame.
 
 ## Installation
 ### Method 1: Ctrl+C, Ctrl+V
