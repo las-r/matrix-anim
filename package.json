@@ -1,0 +1,9 @@
+{
+  "urls": [
+    ["mtxanim.py"],
+  ],
+  "deps": [
+    ["https://raw.githubusercontent.com/mcauser/micropython-max7219/refs/heads/master/max7219.py", "latest"],
+  ],
+  "version": "1.0"
+}
