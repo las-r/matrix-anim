@@ -5,6 +5,8 @@ from machine import Pin, SPI
 # example for matrix-anim
 # this should make a loading circle
 
+# made by las-r on github
+
 # lcd matrix
 spi = SPI(1, baudrate=10000000, polarity=0, phase=0, sck=Pin(18), mosi=Pin(23))
 cs = Pin(5, Pin.OUT)
