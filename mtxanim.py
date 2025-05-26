@@ -7,7 +7,7 @@ import time
 # animation class
 class Anim:
     # init
-    def __init__(self, frames, display, brightness=5):
+    def __init__(self, frames, display, brightness = 5):
         self.frames = frames
         self.display = display
         self.display.brightness(brightness)
@@ -31,3 +31,12 @@ class Anim:
         for x, y in frame:
             self.display.pixel(x, y, 1)
         self.display.show()
+        
+# string to frame func
+def strToFrame(string, on = "#", lbreak = "/"):
+    frame = []
+    for r, row in enumerate(string.split(lbreak)):
+        for c, char in enumerate(row):
+            if char == on:
+                frame.append((c, r))
+    return frame
